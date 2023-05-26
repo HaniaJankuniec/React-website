@@ -1,6 +1,6 @@
-# Hanna Jankuniec - React.js website "Wytonowani"
+# Hanna Jankuniec - "Wytonowani" React.js website
 
-## Demo - [React.js website "Wytonowani"](https://haniajankuniec.github.io/React-website/)
+## Demo - ["Wytonowani" React.js website](https://haniajankuniec.github.io/React-website/)
 
 ---
 Welcome to the React-website! This website has been created using the React.js library and is designed to showcase my skills in building interactive user interfaces.
