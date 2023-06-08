@@ -28,8 +28,8 @@ export const NavBar = () => {
           <Navbar.Brand href="#home"></Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#features"  className={activeLink === 'features' ? 'active navbar-link' : 'navbar-link'}  onClick={() => onUpdateActiveLink('features')}> BMI Calculator</Nav.Link>
+            <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+            <Nav.Link href="/bmiCalculator"  className={activeLink === 'bmiCalculator' ? 'active navbar-link' : 'navbar-link'}  onClick={() => onUpdateActiveLink('bmiCalculator')}> BMI Calculator</Nav.Link>
           </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,19 +1,27 @@
 import './App.css';
-import { NavBar } from './components/NavBar';
-import { Banner } from './components/Banner';
-import { BmiCalculator } from './components/BmiCalculator';
-import { Skills } from './components/Skills';
+import { NavBar } from './pages/NavBar';
+import { Banner } from './pages/Banner';
+import { BmiCalculator } from './pages/BmiCalculator';
+import { Skills } from './pages/Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="app">
-      <NavBar/>
-      <Banner/>
-      <Skills/>
-      <BmiCalculator/>
+		  <BrowserRouter>
+			  <nav>
+				  <NavBar/>
+          <Banner/>
+			  </nav>
+			<main>
+				<Routes>
+					<Route path="/" element={<Skills />} />
+					<Route path="/bmiCalculator" element={<BmiCalculator />} />
+				</Routes>
+			</main>
+		</BrowserRouter>
     </div>
   );
 }

@@ -24,7 +24,7 @@ export const BmiCalculator = () => {
   }
 
   return (
-    <Container className="calculator">
+    <Container className="calculator" id="bmiCalculator">
       <h2>BMI Calculator</h2>
       <div className="calculatorForm"><Row>
         <Col>

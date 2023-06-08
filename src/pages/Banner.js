@@ -57,7 +57,13 @@ export const Banner = () => {
                     <span className="tagline">Become a part of Wytonowani</span>
                     <h1>{`We will make you`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "stronger", "healthier", "feel better" ]'><span className="wrap">{text}</span></span></h1>
                       <p>"Empower Your Body, Empower Your Mind" It's about unlocking your full potential, harnessing your inner strength, and cultivating a positive mindset that propels you towards success in all areas of your life. We are dedicated to providing you with the tools, knowledge, and support needed to achieve this holistic empowerment of body and mind.</p>
-                      <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                      <button onClick={() => {
+    console.log('connect');
+    window.open('https://instagram.com/wytonowani?igshid=MzRlODBiNWFlZA==', '_blank');
+  }}
+>
+  Let's Connect
+  <ArrowRightCircle size={25} /></button>
                   </div>}
                 </TrackVisibility>
               </Col>

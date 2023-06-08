@@ -196,8 +196,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     border-radius: 64px;
     text-align: center;
     padding: 40px 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: -60px;
 }
 
 .calculator h2 {
@@ -214,12 +213,16 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .calculatorForm {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding: 10px;
     position: relative;
 }
 
 .calculator p {
+    color: #ffff;
     font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
 }
