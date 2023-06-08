@@ -10,7 +10,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="app">
-		  <HashRouter basename='/react-website'>
+		  <HashRouter>
 			  <nav>
 				  <NavBar/>
           <Banner/>
