@@ -4,13 +4,13 @@ import { Banner } from './pages/Banner';
 import { BmiCalculator } from './pages/BmiCalculator';
 import { Skills } from './pages/Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="app">
-		  <BrowserRouter>
+		  <HashRouter>
 			  <nav>
 				  <NavBar/>
           <Banner/>
@@ -21,7 +21,7 @@ function App() {
 					<Route path="/bmiCalculator" element={<BmiCalculator />} />
 				</Routes>
 			</main>
-		</BrowserRouter>
+		</HashRouter>
     </div>
   );
 }
