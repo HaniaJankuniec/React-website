@@ -1,7 +1,7 @@
 {
   "name": "react-website",
   "version": "0.1.0",
-  "homepage": "https://haniajankuniec.github.io/React-website/",
+  "homepage": "https://haniajankuniec.github.io/React-website/#",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
